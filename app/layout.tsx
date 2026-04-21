@@ -22,6 +22,7 @@ export default function RootLayout({
             </Link>
             <nav className="nav-links">
               <Link href="/" className="nav-link">Home</Link>
+              <Link href="/contact" className="nav-link">Contact</Link>
               <Link href="/terms" className="nav-link">Terms</Link>
               <Link href="/privacy" className="nav-link">Privacy</Link>
             </nav>
@@ -37,6 +38,7 @@ export default function RootLayout({
             </div>
             <p className="copyright">© 2026 Mochi AI. All rights reserved.</p>
             <div className="footer-links">
+              <Link href="/contact">Contact Us</Link>
               <Link href="/terms">Terms of Service</Link>
               <Link href="/privacy">Privacy Policy</Link>
             </div>
